@@ -17,36 +17,71 @@
     <script src="js/html5shiv.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="css/style.css">
-        <script src='js/script.js'></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src='js/script.js'></script>
 </head>
 <body>
-	<div class="container">
-    <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-    </div>
-<div class="navbar">
-
-<div class="icon-bar" onclick="Show()">
-    <i></i>
-    <i></i>
-    <i></i>
-</div>
-
-<ul id="nav-lists" >
-    <li class="close"><span onclick="Hide()">×</span></li>
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="#">Menu</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Log In</a></li>
-    <li><a href="registrationform.html">Sign Up</a></li>
-</ul>
-
-</div>
-</div>
+	<section class="nav-bar">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="index.html"><img src="images/logo.png"></a>
+          </div>
+          <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#">Menu</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+                <ul class="nav-dropdown">
+                  <li>
+                    <a href="#">Dine-IN</a>
+                  </li>
+                  <li>
+                    <a href="#">Food_delivery</a>
+                  </li>
+                  <li>
+                    <a href="#">Store-Pickup</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#!">Cuisines</a>
+              <ul class="nav-dropdown">
+                  <li>
+                    <a href="#">Indian</a>
+                  </li>
+                  <li>
+                    <a href="#">Chinese</a>
+                  </li>
+                  <li>
+                    <a href="#">Mexican</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#!">About</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Log-IN</a>
+              </li>
+              <li>
+                <a href="registrationform.html">Sign-UP</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
    <div>
    <slider>
-   	<slide><p></p></slide>
+   <slide><p>Cravings Unleashed!</p></slide>	
    	<slide><p></p></slide>
    	<slide><p></p></slide>
    	<slide><p></p></slide>
