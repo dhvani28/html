@@ -299,8 +299,8 @@ body {
   slide:nth-child(7){
     animation-delay: 20s;
     background-image: url("slide_8.jpg");
-    background-size: 400px 640px;
+    background-size: cover;
     background-repeat:no-repeat;
-    background-position: top;
+    background-position: center;
   }
 }
