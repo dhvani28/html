@@ -9,7 +9,11 @@
   
   body{
     background:black;
-  }
+    background-image: url(signupback.jpg);
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+    }
   
   .wrapper{
     max-width: 350px;
@@ -22,7 +26,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 20px;
-  }
+ }
   
 
   
