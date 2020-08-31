@@ -9,6 +9,7 @@
   
   body{
     background: rgb(29, 15, 15);
+  
     background-image: url(signupback.jpg);
     background-size: cover;
     background-position: initial;
@@ -28,9 +29,7 @@
     border-radius: 20px;
  }
   
-
-  
-  .wrapper .social_media{
+ .wrapper .social_media{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -42,15 +41,15 @@
     height: 35px;
     line-height: 35px;
     text-align: center;
-    border: 2px solid #eeeeee;
+    border: 2px solid black;
     border-radius: 50%;
     cursor: pointer;
-    color: #eeeeee;
-    transition: all 0.5s ease;
+    color: black;
+    transition: all 0.7s ease;
   }
   
   .wrapper .social_media .item:hover{
-    border: 2px solid #df605b;
+    border: 3px solid #df605b;
     color: #df605b;
   }
   
