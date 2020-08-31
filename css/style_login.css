@@ -50,8 +50,8 @@
   }
   
   .wrapper .social_media .item:hover{
-    border: 2px solid #3aaf9f;
-    color: #3aaf9f;
+    border: 2px solid #df605b;
+    color: #df605b;
   }
   
   .wrapper .form .input_field{
@@ -70,7 +70,7 @@
   .wrapper .form .btn{
     width: 70%;
     margin: 20px auto 0;
-    background: #3aaf9f;
+    background: #df605b;
     text-align: center;
     padding: 12px;
     border-radius: 25px;
