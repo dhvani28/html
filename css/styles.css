@@ -108,3 +108,127 @@ nav ul li.active{
     }
     
 }
+
+/*<!----Footer---->*/
+ @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
+  body{
+  	padding: 0;
+  	margin:0;
+  	overflow-x: hidden;
+  }
+  h3{
+  	font-size: 32px;
+  	font-weight: 700;
+  }
+  	.customcolor{
+  		background: #555;
+  		padding-top: 60px;
+  		padding-bottom: 30px;
+  		color: #fff;
+  		font-family: 'Raleway', sans-serif;
+      }
+      
+    .customcolor p{
+        padding-top: 20px;
+    }
+
+  	.customcolor .col-md-3:nth-child(1) .fa{
+  		padding-right: 25px;
+  	}
+  	.customcolor .col-md-3:nth-child(2) .fa,.customcolor .col-md-3:nth-child(3) .fa{
+  		padding-right: 10px;
+  	}
+  	.customcolor ul {
+  		list-style-type: none;
+  		padding: 20px 10px;
+  		margin: 0;
+  		/*padding-top: 20px;
+  		padding-left: 10px;*/
+    }
+    .customcolor ul li{
+        padding-top: 5px;
+    }
+    .customcolor a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .customcolor a:hover{
+        color:#fd0707;
+    }
+    .customcolor span{
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    .form-control{
+        height: 45px;
+        border-radius: 2px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .btn-custom{
+        background: #000;
+        color: #fff;
+        padding: 10px 23px 10px 23px;
+    }
+    .btn-custom:hover{
+        background:#f00; 
+        color:#fff;
+    
+        transition: .6s ease;
+
+    }
+    .bottom{
+            background: #fff;
+            color: #555;
+            padding-top: 20px;
+            font-weight: 600;
+
+    }
+    .bottom ul{
+        list-style-type: none;
+        display: inline-flex;
+    
+    }
+    .bottom ul li{
+        padding-right: 30px;
+        text-align: right;
+    }
+    .bottom a{
+        text-decoration: none;
+        color: #555;
+    }
+    .icon .fa{
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .icon .fa:hover{
+        color: #f00;
+    }
+    @media(max-width: 768px){
+        h3{
+            padding-top: 30px;
+        }
+        .bottom{
+            text-align: center;
+        }
+        .bottom .pull-right{
+            float: right;
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+    @media(max-width: 450px){
+        .customcolor{
+            text-align: center;
+        }
+        .customcolor .col-md-3:nth-child(1) .fa{
+            padding-right: 15px;
+            text-align: center;
+        }
+        .customcolor .pl-4{
+            padding-left: 0 !important;
+        }
+        .customcolor .pr-4{
+            padding-right: 0 !important;
+        }
+    }
