@@ -76,9 +76,9 @@ body{
 }
 
 .bar{
-  width: 165px;
-  height: 4px;
-  background-color: #282246;
+  width: 120px;
+  height: 2.5px;
+  background-color: #1b1730;
   position: absolute;
   top: 68%;
   left: 50%;
