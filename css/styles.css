@@ -46,17 +46,17 @@ body{
 }
 
 @keyframes anim1{
-  0%{background-image:url(../images/flex_1.jpg);}
-  10%{background-image:url(../images/flex_11.jpg);}
-  20%{background-image:url(../images/flex_111.jpg);}
-  30%{background-image:url(../images/flex_1111.jpg);}
-  40%{background-image:url(../images/flex_1.jpg);}
-  50%{background-image:url(../images/flex_11.jpg);}
-  60%{background-image:url(../images/flex_111.jpg);}
-  70%{background-image:url(../images/flex_1111.jpg);}
-  80%{background-image:url(../images/flex_1.jpg);}
-  90%{background-image:url(../images/flex_11.jpg);}
-  100%{background-image:url(../images/flex_111.jpg);}
+  0%{background-image:url(../images/1.jpg);}
+  10%{background-image:url(../images/2.jpg);}
+  20%{background-image:url(../images/3.jpg);}
+  30%{background-image:url(../images/4.jpg);}
+  40%{background-image:url(../images/5.jpg);}
+  50%{background-image:url(../images/6.jpg);}
+  60%{background-image:url(../images/7.jpg);}
+  70%{background-image:url(../images/8.jpg);}
+  80%{background-image:url(../images/1.jpg);}
+  90%{background-image:url(../images/2.jpg);}
+  100%{background-image:url(../images/3.jpg);}
 }
 
 @keyframes anim2{
