@@ -9,10 +9,6 @@
   
   body{
     background: rgb(29, 15, 15);
-  
-    background-image: url(signupback.jpg);
-    background-size: cover;
-    background-position: initial;
     background-repeat: no-repeat;
     }
   
@@ -20,7 +16,7 @@
     max-width: 350px;
     width: 100%;
     height: auto;
-    background: #fff;
+    background: #ffffff;
     padding: 60px 45px;
     position: absolute;
     top: 50%;
