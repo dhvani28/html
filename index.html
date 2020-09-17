@@ -31,48 +31,7 @@
 
 </head>
 <body>
-  <!---loader--->
-  <div class="main">
-    <div class="text">
-      Cooking...
-    </div>
-    <div class="title">
-      The Miglior
-    </div>
-    <div class="bar">
-      <div id="fill"></div>
-    </div>
-  </div>
-  <script type="text/javascript">
-  var progress = 0;
-    document.onreadystatechange = function()
-    {
-      if(document.readyState == "interactive")
-      {
-        var allElement = $("*");
-        var length = allElement.length;
-        for(var i=0;i<length;i++)
-        {
-          set_element(allElement[i],length);
-        } 
-      }
-    }
-      function set_element(element,totalElement)
-      {
-        var percentage = 100 / totalElement;
-        if($(element).length==1)
-        {
-          $("#fill").animate({width: progress+percentage+"%"},1000,function(){
-            if(document.getElementById("fill").style.width=="100%")
-            {
-              $(".main").fadeOut(500);
-            }
-          });
-          progress = progress + percentage;
-        }
-      }
-  </script>
-  <!-- Navbar-->
+   <!-- Navbar-->
 <header class="header">
   <nav class="navbar navbar-expand-lg fixed-top py-3">
       <div class="container-fluid"><a href="index.html" class="navbar-brand"><img src="images/pic1.png" width="200px" height="70px" alt="LOGO"></a>
