@@ -43,7 +43,7 @@
     color: transparent;
     -webkit-background-clip: text;
     pointer-events: none;
-    animation: anim1 1s infinite, anim2 10s forwards;
+    animation: anim1 0.4s infinite, anim2 5s forwards;
   }
   
   @keyframes anim1{
