@@ -627,6 +627,11 @@ footer{
     font-weight: 600;
 }
 
+.footer-links ul li{
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
 .footer-links ul li a{
     display: block;
     border: 1px solid;
@@ -863,12 +868,7 @@ footer{
         width: 25vh !important;
     }
 
-    .footer-links ul li{
-        text-align: justify;
-        margin-bottom: 1rem;
-    }
-
-    .social-media h4{
+   .social-media h4{
         margin-top: 0;
     }
 
