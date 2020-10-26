@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Source+Sans+Pro:wght@400;900&display=swap');
+@font-face {
+    font-family: "Gloss and Bloom";
+    src: url("Gloss_And_Bloom.ttf");
+}
 
 /*font-family: 'Poppins', sans-serif;*/
 
@@ -40,12 +45,12 @@ header{
 }
 
 .nav ul li a{
-    color: coral;
+    color: #c59d5f;
     text-decoration: none;
 }
 
 .menu-toggle{
-    color: #555;
+    color: #c59d5f;
     font-size: 2rem;
     position: absolute;
     top: 50%;
@@ -65,10 +70,10 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    width: 60%;
+    width: 55%;
     height: 100%;
-    background-color: #555;
-    padding: 2rem;
+    background-color: #121212;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,9 +114,7 @@ header{
 }
 
 .nav-item{
-    border-bottom: 2px solid rgba(255,255,255,.3);
-    border-radius: 50%;
-    border-width: .5rem;
+    border-bottom: 1px solid #fff;
 }
 
 .nav-list{
@@ -124,8 +127,29 @@ header{
     transition: color.5s ease-in-out;
 }
 
-.nav-link:hover{
+.nav-link.active{
+    color: #c59d5f;
+    background: #ffffff;
+    border-radius: .4rem;
+    transition: .6s ease-in-out;
+}
+
+.nav-link.active:hover{
     color: #fff;
+    background: #c59d5f;
+    border-radius: .4rem;
+    transition: .6s ease-in-out;
+}
+
+.nav-link:hover{
+    color: #c59d5f;
+    background: #fff;
+    border-radius: .4rem;
+    transition: .6s ease-in-out;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: 2 !important;
 }
 
 .container{
@@ -142,7 +166,7 @@ header{
     width: 2000px;
     height: 2000px;
     border-radius: 50%;
-    background: coral;
+    background: #121212;
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
@@ -192,8 +216,9 @@ form.sign-up-form{
 }
 
 .title{
-    font-size: 2.2rem;
-    color: coral;
+    font-family: Gloss and Bloom;
+    font-size: 2rem;
+    color: #121212;
     margin-bottom: 10px;
 }
 
@@ -201,9 +226,9 @@ form.sign-up-form{
     max-width: 380px;
     width: 100%;
     height: 55px;
-    background-color: #555555;
+    background-color: #121212;
     margin: 10px 0;
-    border-radius: 55px;
+    border-radius: .6rem;
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 0 .4rem;
@@ -237,10 +262,10 @@ form.sign-up-form{
     height: 50px;
     border: none;
     outline: none;
-    border-radius: 50px;
+    border-radius: .6rem;
     cursor: pointer;
-    background-color: coral;
-    color: floralwhite;
+    background-color: #121212;
+    color: #c59d5f;
     text-transform: uppercase;
     font-weight: 600;
     margin: 10px 0;
@@ -248,7 +273,13 @@ form.sign-up-form{
 }
 
 .btn-solid:hover{
-    background-color: #555;
+    color: #ffffff;
+    background-color: #c59d5f;
+}
+
+.btn-solid.btn-solid.transparent:hover{
+    color: #ffffff;
+    background-color: #c59d5f;
 }
 
 .social-text{
@@ -264,21 +295,21 @@ form.sign-up-form{
 .social-icons{
     height: 50px;
     width: 50px;
-    border: 1px solid coral;
     margin: 0 0.45rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: coral;
-    font-size: 1.5rem;
+    color: #121212;
+    font-size: 2rem;
     border-radius: 50%;
     transition: .5s ease;
 }
 
 .social-icons:hover{
-    color:#555;
-    border-color: #555;
+    color:#c59d5f;
+    border-color: #c59d5f;
+    text-decoration: none;
 }
 
 .panels-container{
@@ -316,13 +347,16 @@ form.sign-up-form{
 }
 
 .panel h3{
-    font-weight: 600;
+    font-family: Gloss and Bloom;
+    font-weight: 500;
     line-height: 1;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: #c59d5f;
 }
 
 .panel p{
-    font-size: .95rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
     padding: 0.75rem 0;
     
 }
@@ -330,11 +364,13 @@ form.sign-up-form{
 .btn-solid.transparent{
     margin: 0;
     background: none;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     width: 130px;
     height: 45px;
     font-weight: 600;
-    font-size: .8rem;
+    font-size: .9rem;
+    font-family: 'Cabin',sans-serif;
+    text-transform: uppercase;
 }
 
 .image{
